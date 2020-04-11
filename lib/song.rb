@@ -34,16 +34,15 @@ end
 @@uniqartist
 end 
 
-def self.genre_count 
+def self.genre_count
   hash1={}
   @@genres.each do |value|
   if hash1[value]
-    hash1[value]=+1
-  else 
-    hash1[value]
-    hash1[value]=1 
-  end 
-end 
+    hash1[value]+=1
+  else
+    hash1[value]=1
+  end
+end
 hash1
 end
 
