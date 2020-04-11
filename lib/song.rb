@@ -44,6 +44,7 @@ def self.genre_count
     hash1[value]=1 
   end 
 end 
+hash1
 end
 
 def self.artist_count 
