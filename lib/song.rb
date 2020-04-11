@@ -49,12 +49,13 @@ end
 def self.artist_count 
   hash2={}
   @@artists.each do |value|
-  if hash2["value"]==value
+  if hash2[value]
     hash2[value]+=1
   else 
-    hash2[value]+=1 
+    hash2[value]=1 
   end 
 end 
+hash2
 end 
 
 end 
