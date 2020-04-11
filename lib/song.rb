@@ -41,7 +41,7 @@ def self.genre_count
     hash1[value]=+1
   else 
     hash1[value]
-    hash1[value]=+1 
+    hash1[value]=1 
   end 
 end 
 end
